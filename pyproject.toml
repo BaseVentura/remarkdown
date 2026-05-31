@@ -1,0 +1,16 @@
+[project]
+name = "mail_to_obsidian"
+version = "0.1.0"
+description = "Fetch GMX emails and save them as Markdown notes."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Your Name", email = "you@example.com" }
+]
+dependencies = [
+  "markdownify>=0.13.0"
+]
+
+[project.scripts]
+mail-to-obsidian = "mail_to_obsidian.cli:main"
